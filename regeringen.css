@@ -1,0 +1,88 @@
+body {
+	font-family: "arial";
+	padding: 0px;
+	border: 0px;
+	margin; 0px;
+	
+	
+}
+
+.tolk {
+	align-content: center;
+	
+}
+
+.head {
+	background-color: #1a3051;
+	text-align: center;
+	
+}
+
+.topnav {
+	text-align: center;
+	height: 67px;
+	padding-bottom: 30px;
+}
+
+.topnav button {
+	box-sizing: border-box;
+	width: 110px;
+	height: 46px;
+	background-color: #1a3051;
+	border-color: blue;
+	outline-color: blue;
+	padding: none; 
+	border: none;
+	color: white;
+	
+	
+	
+}
+
+.topnav input {
+	box-sizing: border-box;
+	width: 650px;
+	height: 45px;
+	font-size: 120%;
+	
+	
+}
+
+.head {
+	position: relative;
+	left: -15px;
+	width: 100%;
+	padding: 21px;
+	border: none;
+	margin: none;
+
+}
+
+.head button {
+	color: white;
+	background-color: #1a3051;
+	border-color: blue;
+	outline-color: blue;
+	border: none;
+	margin: none;
+}
+
+.startpage {
+	text-align: center;
+
+}
+
+.corona {
+	background-color: #564770;
+	margin-top: 0px;	
+	
+}
+
+.aktuellt {
+	background-color: white;
+	
+}
+
+.reseinfo, .genvägar, .regeringssammanträde, .kalender {
+	background-color: #f4f3f1;
+}
