@@ -7,6 +7,12 @@ body {
 	
 }
 
+.bakgrund {
+	background-color: #f4f3f1;
+
+	
+}
+
 .tolk {
 	align-content: center;
 	
@@ -51,10 +57,8 @@ body {
 .head {
 	position: relative;
 	left: -15px;
-	width: 100%;
-	padding: 21px;
-	border: none;
-	margin: none;
+	width: 99%;
+	padding: 21px;	
 
 }
 
@@ -68,13 +72,18 @@ body {
 }
 
 .startpage {
-	text-align: center;
-
+	
+	width: 70%;
+	margin: auto;
+	
 }
 
 .corona {
 	background-color: #564770;
-	margin-top: 0px;	
+	box-sizing: border-box;
+	margin: auto;
+	height: 400px;
+	color: white;
 	
 }
 
@@ -83,6 +92,28 @@ body {
 	
 }
 
+.högersidan {
+	float: right;
+	width: 350px;
+	margin-right: 75px;
+	margin-top: 30px;
+}
+
+.vänstersidan {
+	padding: 30px;
+	
+}
+
+.rubrik {
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+}
 .reseinfo, .genvägar, .regeringssammanträde, .kalender {
 	background-color: #f4f3f1;
+	
+}
+
+.nyhet1 {
+	
 }
