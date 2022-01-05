@@ -9,18 +9,14 @@ body {
 
 .bakgrund {
 	background-color: #f4f3f1;
-
+	padding: none;
+	border: none;
+	margin: none;
 	
 }
 
 .tolk {
 	align-content: center;
-	
-}
-
-.head {
-	background-color: #1a3051;
-	text-align: center;
 	
 }
 
@@ -55,6 +51,9 @@ body {
 }
 
 .head {
+	background-color: #1a3051;
+	text-align: center;
+	margin: auto;
 	position: relative;
 	left: -15px;
 	width: 99%;
@@ -72,8 +71,10 @@ body {
 }
 
 .startpage {
-	
-	width: 70%;
+	padding: none;
+	width: auto;
+	max-width: 1300px;
+	min-width: 600px;
 	margin: auto;
 	
 }
@@ -83,26 +84,71 @@ body {
 	box-sizing: border-box;
 	margin: auto;
 	height: 400px;
-	color: white;
-	
+	color: white;	
 }
+
+/*.denvita1 {
+	height: auto;
+	min-width: 100%;
+	
+}*/
 
 .aktuellt {
 	background-color: white;
+	margin-top: 10px;	
+}
+
+.genvägar {
+	list-style-type: none;
 	
+}
+
+/*alla klasser kanske ska ha detta?{
+	overflow-wrap: break-word;
+
+}*/
+
+.aktuellt1 {
+	display: grid;
+	grid-template-columns: 70% 30%; 
+	grid-template-rows: auto;
+}
+
+.aktuellt1 .aktuellt2 img {	
+	height: auto;
+	width: auto;
+	display: block;
 }
 
 .högersidan {
-	float: right;
-	width: 350px;
-	margin-right: 75px;
-	margin-top: 30px;
+	max-width: 80%;
+	width: auto;
+	margin-right: none;
+	margin-top: 10px;
+	padding: none;
+	border: none;
+	display: border-box;
 }
 
 .vänstersidan {
+	display: grid;
+	grid-template-rows: auto auto auto;
 	padding: 30px;
+	max-width: 100%;
+	width: auto;
+	display: border-box;
 	
 }
+
+.vänstersidan img {
+	float: right;
+	margin: 10px;
+}
+
+.vänstersidan h3 {
+	font-family: 'comic sans ms';
+	font-size: 20px;
+]}
 
 .rubrik {
 	font-size: 20px;
@@ -111,9 +157,48 @@ body {
 }
 .reseinfo, .genvägar, .regeringssammanträde, .kalender {
 	background-color: #f4f3f1;
+	max-width: 100%;
+	height: auto;
+	width: auto;
 	
 }
 
 .nyhet1 {
 	
 }
+
+.mindrenyheter {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25% ; 
+	grid-template-rows: auto auto ;
+	list-style-type: none;
+	height: auto;
+	width: 100%;
+}
+
+.mindre {
+	padding: 40px;
+	
+}
+
+.mindre p h4 {
+	
+}
+
+.mindre p h4 img {
+	
+}
+
+.mindrenyheter img {
+	max-height: 165px;
+
+}
+
+.footer {
+	background-color: #1a3051;
+}
+
+.slut {
+	background-color: white;
+}
+
